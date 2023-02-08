@@ -1,1 +1,70 @@
 /* CSS stillerinizi buraya girin */
+body{
+    background-color: bisque;
+}
+header nav a{
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color:black;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background: rgb(184, 180, 180);
+    
+}
+header nav a:first-child{
+    margin-right: auto; 
+    font-size: 1.5rem;
+}
+.hero{
+    display: flex;
+    background-image: url(https://picsum.photos/id/20/800/600);
+    padding:25%;
+    background-size: cover;
+    text-align: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.hero a{
+    background:  rgb(184, 180, 180);
+    padding: 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color:black
+    
+}
+.hero h1{
+    font-size: 2.4rem;
+}
+.proje-photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 1rem;
+}
+.proje-photos div{
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+    width: 33%;
+}
+footer {
+    background: rgb(184, 180, 180);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    padding:1rem;
+}
+footer a:hover{
+    background: white;
+}
